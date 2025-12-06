@@ -492,30 +492,16 @@ wheels = [
 [[package]]
 name = "lick"
 version = "0.7.3"
-source = { editable = "../la-niche/lick" }
+source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "matplotlib" },
     { name = "numpy" },
     { name = "rlic" },
     { name = "scipy" },
 ]
-
-[package.metadata]
-requires-dist = [
-    { name = "matplotlib", specifier = ">=3.5.0" },
-    { name = "numpy", specifier = ">=1.21.2,<3" },
-    { name = "rlic", specifier = ">=0.2.1" },
-    { name = "scipy", specifier = ">=1.7.2" },
-]
-
-[package.metadata.requires-dev]
-test = [
-    { name = "pytest", specifier = ">=7.0.0" },
-    { name = "pytest-mpl", specifier = ">=0.16.1" },
-]
-typecheck = [
-    { name = "matplotlib", specifier = ">=3.8.1" },
-    { name = "mypy", specifier = ">=1.15.0" },
+sdist = { url = "https://files.pythonhosted.org/packages/d6/c5/246a172a7dac16ac312c3e9b9a16aafbda10d3cec86d23d0921e2fedcc54/lick-0.7.3.tar.gz", hash = "sha256:97dab76f539fc6d9c3366daef7d1f5107eb1529f3376203d3058c722f01956aa", size = 17354, upload-time = "2025-12-01T13:25:20.808Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/b7/15/e75646aac89153e0ea2257c5bf9eeaf4146509d919c186a32f41aa31330d/lick-0.7.3-py3-none-any.whl", hash = "sha256:b83f6a564cf24d0cda5700675824d729bf84f2cf461d438b61bfc83144475cfb", size = 17409, upload-time = "2025-12-01T13:25:19.736Z" },
 ]
 
 [[package]]
@@ -535,7 +521,7 @@ dev = [
 
 [package.metadata]
 requires-dist = [
-    { name = "lick", editable = "../la-niche/lick" },
+    { name = "lick", specifier = "==0.7.3" },
     { name = "nonos", specifier = ">=0.19.0" },
     { name = "numpy", specifier = "==1.26.4" },
 ]
