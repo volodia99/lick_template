@@ -12,3 +12,6 @@ dependencies = [
 dev = [
     "ipykernel>=7.1.0",
 ]
+
+[tool.uv.sources]
+lick = { path = "../la-niche/lick", editable = true }
