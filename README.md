@@ -1,6 +1,6 @@
 # TEMPLATE FOR LICK
 
-***Jupyter notebook that applies lick package to 2D/3D spherical dataset***
+***Jupyter notebook as a template to use [lick](https://github.com/la-niche/lick) package on a 2D/3D spherical dataset***
 
 ## Installation
 
