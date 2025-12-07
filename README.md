@@ -18,4 +18,8 @@ For more information on how to use Jupyter with uv, e.g. within an editor, check
 
 ## Output
 
-If everything works smoothly, you should obtain the following image (window_case="full", resolution_case="high"):
+If everything works smoothly, you should obtain the following image (`window_case="full"`, `resolution_case="high"`):
+
+<p align="center">
+    <img src="https://github.com/volodia99/lick_template/blob/main/img/lick_rho_vx_vz.png" width="600"></a>
+</p>
