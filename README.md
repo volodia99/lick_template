@@ -14,4 +14,4 @@ After `cd lick_template`, you can run the notebook inside the project's virtual 
 uv run --with jupyter jupyter lab
 ```
 
-For more information on how to use Jupyter with uv, check the [corresponding uv section](https://docs.astral.sh/uv/guides/integration/jupyter/). 
+For more information on how to use Jupyter with uv, e.g. within an editor, check the [corresponding uv section](https://docs.astral.sh/uv/guides/integration/jupyter/). 
