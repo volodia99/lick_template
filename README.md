@@ -11,7 +11,7 @@ We recommend to install this repo using the package and project manager `uv`. Se
 After `cd lick_template`, you can run the notebook inside the project's virtual environment, via the following:
 
 ```shell
-uv run --with jupyter jupyter lab
+uv run jupyter lab
 ```
 
 For more information on how to use Jupyter with uv, e.g. within an editor, check the [corresponding uv section](https://docs.astral.sh/uv/guides/integration/jupyter/). 
