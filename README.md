@@ -15,3 +15,7 @@ uv run jupyter lab
 ```
 
 For more information on how to use Jupyter with uv, e.g. within an editor, check the [corresponding uv section](https://docs.astral.sh/uv/guides/integration/jupyter/). 
+
+## Output
+
+If everything works smoothly, you should obtain the following image (window_case="full", resolution_case="high"):
