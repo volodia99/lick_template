@@ -911,7 +911,7 @@ wheels = [
 
 [[package]]
 name = "lick"
-version = "0.7.4"
+version = "0.9.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "matplotlib" },
@@ -919,9 +919,9 @@ dependencies = [
     { name = "rlic" },
     { name = "scipy" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/20/37/dd7c38b00e7a51bfce12c3fcae5baa2e92271fd2309da7d5547a966b1389/lick-0.7.4.tar.gz", hash = "sha256:72b32945c70957948a32e5fc9dab29e192ab8d26a4c360f43a6bbb1a4b1f1157", size = 17415, upload-time = "2025-12-06T21:59:37.534Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/4e/13/92fbc35a95dbf8bf25c1e38dbe97bba0cc2ea36dbfd1fdc72e6bc2c921c9/lick-0.9.0.tar.gz", hash = "sha256:e06dd2f7dbcbe5c0af1af916253b90026c409564191504105c68b9e2e4edc455", size = 18959, upload-time = "2025-12-14T20:11:58.239Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/b8/4d/34026cb95bd73547a9030998dd71a4ae54e57c8ec883492da7a245a835b5/lick-0.7.4-py3-none-any.whl", hash = "sha256:69dffa4c11db066f452e559ef2e236794e29e9af7f1a25c0a67b70f355dbb895", size = 17456, upload-time = "2025-12-06T21:59:36.226Z" },
+    { url = "https://files.pythonhosted.org/packages/60/76/5590b7e956715ce9bf4785bc614010405f6ea07216102d0cad88978ead47/lick-0.9.0-py3-none-any.whl", hash = "sha256:9df90725275619cafd8b068fcdbee8314d708b0ff8c99e1624b52a908e8d366a", size = 19063, upload-time = "2025-12-14T20:11:56.852Z" },
 ]
 
 [[package]]
@@ -938,7 +938,7 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "jupyter", specifier = ">=1.1.1" },
-    { name = "lick", specifier = "==0.7.4" },
+    { name = "lick", specifier = ">=0.7.4" },
     { name = "nonos", specifier = ">=0.19.0" },
     { name = "numpy", specifier = ">=1.26.4" },
 ]
